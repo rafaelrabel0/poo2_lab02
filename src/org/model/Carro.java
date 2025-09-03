@@ -2,18 +2,11 @@ package org.model;
 
 public class Carro {
     public String marca;
-    protected String modelo;
-    int ano;
-    private double preco;
+    public String modelo;
+    public int ano;
+    public double preco;
 
     public Carro() {
-        this.marca = "";
-        this.modelo = "";
-        this.ano = 0;
-        this.preco = 0.0;
-    }
-
-    public Carro(String marca, String modelo, int ano, double preco) {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
